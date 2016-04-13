@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UITextView *dairyText;
 
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B6BDDB31CBE06AB00E126FE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BDDB21CBE06AB00E126FE /* LoginViewController.m */; };
 		4B8D80021CA8EFDF00282CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D80011CA8EFDF00282CB8 /* main.m */; };
 		4B8D80051CA8EFDF00282CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D80041CA8EFDF00282CB8 /* AppDelegate.m */; };
 		4B8D80081CA8EFDF00282CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8D80071CA8EFDF00282CB8 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B6BDDB11CBE06AB00E126FE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4B6BDDB21CBE06AB00E126FE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		4B8D7FFD1CA8EFDF00282CB8 /* DairyNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairyNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8D80011CA8EFDF00282CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B8D80031CA8EFDF00282CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				4B8D80141CA8EFDF00282CB8 /* Info.plist */,
 				4B8D800C1CA8EFDF00282CB8 /* DairyNote.xcdatamodeld */,
 				4B8D80001CA8EFDF00282CB8 /* Supporting Files */,
+				4B6BDDB11CBE06AB00E126FE /* LoginViewController.h */,
+				4B6BDDB21CBE06AB00E126FE /* LoginViewController.m */,
 			);
 			path = DairyNote;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				4B8D800E1CA8EFDF00282CB8 /* DairyNote.xcdatamodeld in Sources */,
 				4B8D80051CA8EFDF00282CB8 /* AppDelegate.m in Sources */,
 				4B8D80021CA8EFDF00282CB8 /* main.m in Sources */,
+				4B6BDDB31CBE06AB00E126FE /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +509,7 @@
 				4B8D802F1CA8EFDF00282CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B8D80301CA8EFDF00282CB8 /* Build configuration list for PBXNativeTarget "DairyNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				4B8D80321CA8EFDF00282CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B8D80331CA8EFDF00282CB8 /* Build configuration list for PBXNativeTarget "DairyNoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				4B8D80351CA8EFDF00282CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
